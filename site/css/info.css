@@ -27,3 +27,25 @@ article {
 h1 {
     font-family: Georgia, serif;
 }
+
+nav {
+    max-width: 1000px;
+	background-color: black;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a {  
+	font-family: serif; 
+	font-size: 25px;
+	text-decoration: none;
+	color: white;
+
+}
+
+header {
+    height: 200px;
+}
