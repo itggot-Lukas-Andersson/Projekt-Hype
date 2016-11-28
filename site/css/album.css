@@ -33,6 +33,7 @@ nav {
     justify-content: space-around;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 10px;
 }
 
 a {  
@@ -45,4 +46,19 @@ a {
 
 header {
     height: 200px;
+}
+
+.piccol {
+    height: 200px;
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+.picrow {
+    height: 180px;
+    width: 200px;
 }
