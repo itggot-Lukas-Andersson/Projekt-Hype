@@ -5,23 +5,23 @@ html{
 body{
 	background-color: white;
 	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
 
 header{
-	margin-bottom: 0px;
-	padding-bottom: 0px;
-
+	height: 200px;
 }
+
 
 nav{
 	max-width: 1000px;
 	background-color: black;
-	margin-top: 0px;
-	padding-top: 7px;
-	padding-bottom: 7px;
-	margin-left: auto;
-	margin-right: auto;
-
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 a{
@@ -31,33 +31,12 @@ a{
 	padding-top: 0px;
 	text-decoration: none;
 	color: white;
-
-
-
-}
-.ett{
-	margin-right: 150px;
-
-}
-
-.två{
-	margin-right: 150px;
-
-}
-
-.tre{
-	margin-right: 150px;
-}
-
-.links {
-	background-color: black; 
 }
 
 div{
-	margin-left: auto;
-	margin-right: auto;
 	display: flex;
 	flex-direction: column;
+	width: 1000px;
 	}
 
 article{

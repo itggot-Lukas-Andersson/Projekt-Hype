@@ -2,13 +2,12 @@ body {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    
 }
 
 .site {
     display:flex;
     flex-direction: column;
-
+    width: 1000px;
 }
 
 article {
