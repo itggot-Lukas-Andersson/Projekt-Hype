@@ -1,4 +1,5 @@
 html{
+	overflow-y: scroll;
 
 }
 
@@ -35,17 +36,33 @@ nav{
 }
 
 .donera{
+	background-color: #555555;
+	justify-content: center;
+	margin-top: 200px;
 	font-family: serif;
-	font-size: 50px;
+	font-size: 70px;
 	text-decoration: none;
-	color: black;
+	color: white;
 	padding: 5px;
+	border-radius: 12px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #555555;
+	margin
+
 
 }
 
+.donera:hover{
+	background-color: white;
+	
+	color: #555555;
+}
+
 article{
+	display: flex;
 	align-items: center;
-	flex-direction: row;
+	flex-direction: column;
 	max-width: 1000px;
 
 }
