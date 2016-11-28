@@ -1,0 +1,46 @@
+html{
+
+}
+
+body{
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+header{
+	height: 200px;
+}
+
+nav{
+	max-width: 1000px;
+	background-color: black;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.ett, .två, .tre, .fyra{
+	font-family: serif; 
+	font-size: 25px;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-decoration: none;
+	color: white;
+}
+
+div{
+	display: flex;
+	flex-direction: column;
+	width: 1000px;
+	}
+
+article{
+	align-items: center;
+	flex-direction: column;
+	max-width: 1000px;
+
+}
