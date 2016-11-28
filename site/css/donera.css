@@ -7,6 +7,8 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	margin: 0px;
+	margin-top: 8px;
 }
 
 header{
@@ -41,15 +43,18 @@ nav{
 
 }
 
-div{
-	display: flex;
-	flex-direction: column;
-	width: 1000px;
-	}
-
 article{
 	align-items: center;
-	flex-direction: column;
+	flex-direction: row;
 	max-width: 1000px;
 
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	height: 248px;
+	background-color: black;
+	width: 100%;
 }
