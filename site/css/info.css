@@ -1,4 +1,10 @@
+html {
+    overflow-y: scroll;
+}
+
 body {
+    margin: 0px;
+    margin-top: 8px;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
@@ -47,4 +53,13 @@ a {
 
 header {
     height: 200px;
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	height: 248px;
+	background-color: black;
+    width: 100%;
 }

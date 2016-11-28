@@ -1,8 +1,10 @@
 html{
-
+	overflow-y: scroll;
 }
 
 body{
+	margin: 0px;
+	margin-top: 8px;
 	background-color: white;
 	display: flex;
 	flex-direction: row;
@@ -40,8 +42,24 @@ div{
 	}
 
 article{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
 	max-width: 1000px;
+	padding-top: 8px;
+}
 
+p {
+	max-width: 600px;
+
+}
+
+.block {
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	height: 248px;
+	background-color: black;
 }
