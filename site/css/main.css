@@ -1,22 +1,25 @@
-html{
+html {
 	overflow-y: scroll;
+
 }
 
-body{
-	margin: 0px;
+body {
 	background-color: white;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: space-around;
+	margin: 0px;
 }
 
-header{
+header {
 	height: 200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
 }
 
-
-nav{
-	max-width: 1000px;
+nav {
+	width: 100%;
 	background-color: black;
 	display: flex;
     flex-direction: row;
@@ -34,32 +37,104 @@ a{
 	color: white;
 }
 
-div{
-	display: flex;
-	flex-direction: column;
-	width: 1000px;
-	}
+.donera{
+	background-color: #555555;
+	justify-content: center;
+	margin-top: 200px;
+	font-family: serif;
+	font-size: 70px;
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	border-radius: 12px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #555555;
+	margin: 0px;
+}
+
+.donera:hover{
+	background-color: white;
+	color: #555555;
+}
 
 article{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 	align-items: center;
 	flex-direction: column;
-	max-width: 1000px;
-	padding-top: 25px;
+}
+
+.paradon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+.topdon {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	width: 758px;
+	margin: auto;
+}
+
+.donpic {
+	height: 176px;
+	width: 176px;
+	margin-top: 50px;
 }
 
 p {
-	max-width: 800px;
 	margin: 0px;
-	margin-bottom: 50px;
+	font-size: 19px;
 }
 
-.block {
+.infotitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+h1 {
+    font-family: Georgia, serif;
+}
+
+.piccol {
+    height: 200px;
+    width: 660px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.picrow {
+    height: 180px;
+    width: 200px;
+    transition: transform 0.5s
+}
+
+.picrow:hover{
+    transform: scale(1.2);
+}
+
+.top {
+    margin-top: 20px;
+}
+
+.album {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	height: 100%;
+}
+.center {
 	display: flex;
 	flex-direction: column;
-	align-content: flex-start;
-	height: 248px;
-	background-color: black;
+
+
 }
