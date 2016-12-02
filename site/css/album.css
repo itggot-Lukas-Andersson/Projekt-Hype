@@ -60,6 +60,11 @@ header {
 .picrow {
     height: 180px;
     width: 200px;
+    transition: transform 0.5s
+}
+
+.picrow:hover{
+    transform: scale(1.2);
 }
 
 .top {
