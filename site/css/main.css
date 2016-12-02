@@ -86,6 +86,7 @@ article{
 	height: 176px;
 	width: 176px;
 	margin-top: 50px;
+	flex-shrink: 0;
 }
 
 p {
