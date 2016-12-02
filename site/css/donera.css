@@ -1,9 +1,9 @@
-html{
+html {
 	overflow-y: scroll;
 
 }
 
-body{
+body {
 	background-color: white;
 	display: flex;
 	flex-direction: row;
@@ -11,11 +11,11 @@ body{
 	margin: 0px;
 }
 
-header{
+header {
 	height: 200px;
 }
 
-nav{
+nav {
 	max-width: 1000px;
 	background-color: black;
 	display: flex;
@@ -48,8 +48,6 @@ nav{
 	border-style: solid;
 	border-color: #555555;
 	margin: 0px;
-
-
 }
 
 .donera:hover{
@@ -75,7 +73,6 @@ article{
 }
 
 .paradon {
-	
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
