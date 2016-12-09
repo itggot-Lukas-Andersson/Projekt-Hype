@@ -43,7 +43,7 @@ a{
 	justify-content: center;
 	margin-top: 200px;
 	font-family: serif;
-	font-size: 70px;
+	font-size: 100px;
 	text-decoration: none;
 	color: white;
 	padding: 5px;
@@ -63,29 +63,29 @@ article{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+	margin-top: 25px;
 }
 
 .paradon {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	margin: auto;
 	margin-top: 50px;
 	margin-bottom: 25px;
 	font-size: 20px;
+	max-width: 725px;
 }
 
 .topdon {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	width: 758px;
 	margin: auto;
 }
 
 .donpic {
-	height: 176px;
-	width: 176px;
+	height: 350px;
+	width: 350px;
 	margin-top: 50px;
 	flex-shrink: 0;
 }
@@ -144,4 +144,8 @@ h1 {
 .startp {
 	max-width: 800px;
 	
+}
+
+.donatep {
+	margin-left: 10px;
 }
